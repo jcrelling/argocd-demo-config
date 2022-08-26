@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/jcrelling/argocd-demo-config.git
+    repoURL: https://github.com/argoproj/argocd-example-apps.git
     targetRevision: HEAD
-    path: apps-configs
+    path: apps
   destination: 
     server: https://kubernetes.default.svc
     namespace: apps-configs
