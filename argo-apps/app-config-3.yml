@@ -14,3 +14,7 @@ spec:
     path: my-apps/app3
     repoURL: https://github.com/jcrelling/argocd-demo-config.git
     targetRevision: HEAD
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
