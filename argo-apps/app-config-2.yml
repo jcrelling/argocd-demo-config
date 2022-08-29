@@ -12,5 +12,5 @@ spec:
   project: default
   source:
     path: my-apps/app2
-    repoURL: https://gitlab.com/jcrelling/argocd-demo-config.git
+    repoURL: https://github.com/jcrelling/argocd-demo-config.git
     targetRevision: HEAD
