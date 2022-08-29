@@ -8,7 +8,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: argo-apps
-    repoURL: 'https://gitlab.com/jcrelling/argocd-demo-config.git'
+    repoURL: 'https://github.com/jcrelling/argocd-demo-config.git'
     targetRevision: HEAD
   project: default
   syncPolicy:
