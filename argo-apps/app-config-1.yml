@@ -15,7 +15,8 @@ spec:
     repoURL: https://github.com/jcrelling/argocd-demo-config.git
     targetRevision: HEAD
   syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
     automated:
       prune: true
       selfHeal: true
-      CreateNamespace: true
