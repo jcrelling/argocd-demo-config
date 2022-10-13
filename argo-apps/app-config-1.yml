@@ -11,9 +11,9 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: my-apps/app1
-    repoURL: https://github.com/jcrelling/argocd-demo-config.git
+    repoURL: https://github.com/jcrelling/argocd-demo-app1.git
     targetRevision: HEAD
+    path: .
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
