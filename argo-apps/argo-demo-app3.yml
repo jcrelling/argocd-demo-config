@@ -2,13 +2,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: my-app-3
+  name: mypyapp
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: app3-ns
+    namespace: mypyapp-ns
     server: https://kubernetes.default.svc
   project: default
   source:
